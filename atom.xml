@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ewuzeyu.github.io/</id>
+    <title>Bosihamier</title>
+    <updated>2022-02-22T02:19:06.292Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ewuzeyu.github.io/"/>
+    <link rel="self" href="https://ewuzeyu.github.io/atom.xml"/>
+    <subtitle>一世长安</subtitle>
+    <logo>https://ewuzeyu.github.io/images/avatar.png</logo>
+    <icon>https://ewuzeyu.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, Bosihamier</rights>
+    <entry>
+        <title type="html"><![CDATA[git操作学习笔记]]></title>
+        <id>https://ewuzeyu.github.io/post/git-cao-zuo-xue-xi-bi-ji/</id>
+        <link href="https://ewuzeyu.github.io/post/git-cao-zuo-xue-xi-bi-ji/">
+        </link>
+        <updated>2022-02-21T12:09:21.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="git操作的学习笔记">git操作的学习笔记</h1>
+<p>链接<br>
+<a href="https://zhuanlan.zhihu.com/p/276376558" title="git">git操作</a></p>
+<h2 id="git-工作流程">git 工作流程</h2>
+<ul>
+<li>工作区(Workspace)</li>
+<li>暂存区(Index/Stage)</li>
+<li>本地仓库(Respository)</li>
+<li>远程仓库(Remote)</li>
+</ul>
+<hr>
+<p><strong>远程仓库&lt;-(push)- -(pull/clone)-&gt;本地仓库&lt;-(commit)-暂存区&lt;-(add)-工作区</strong></p>
+<hr>
+<h3 id="基本工作流程">基本工作流程</h3>
+<ol>
+<li>在工作区中添加修改文件</li>
+<li>工作区中的文件放入暂存区</li>
+<li>暂存区的文件提交本地git本地仓库</li>
+<li>本地仓库推送到远程仓库</li>
+</ol>
+<h2 id="操作">操作</h2>
+<h3 id="初始化">初始化</h3>
+<p>两种方式初始化</p>
+<pre><code># 方式一:本地生成git
+git init
+# 方式二:远端克隆仓库
+git clone https://github.com/xx/xx.git
+</code></pre>
+<p>基本配置</p>
+<pre><code># 配置用户名
+git config --global user.name &quot;name&quot;
+# 配置邮箱
+git config --global user.email &quot;name@mail.com&quot;
+</code></pre>
+<p>删除远程仓库</p>
+<pre><code>git remote rm origin
+</code></pre>
+<p>添加远程仓库</p>
+<pre><code>git remote add origin https://github.com/xx/xx.git
+</code></pre>
+<h3 id="推送到远程仓库">推送到远程仓库</h3>
+]]></content>
+    </entry>
+</feed>

@@ -1,0 +1,224 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>git操作学习笔记 | Bosihamier</title>
+<link rel="shortcut icon" href="https://ewuzeyu.github.io//favicon.ico?v=1645496340384">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://ewuzeyu.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="git操作学习笔记 | Bosihamier - Atom Feed" href="https://ewuzeyu.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="git操作的学习笔记
+链接
+git操作
+git 工作流程
+
+工作区(Workspace)
+暂存区(Index/Stage)
+本地仓库(Respository)
+远程仓库(Remote)
+
+
+远程仓库&lt;-(push)- -(pull/c..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://ewuzeyu.github.io/">
+  <img class="avatar" src="https://ewuzeyu.github.io//images/avatar.png?v=1645496340384" alt="">
+  </a>
+  <h1 class="site-title">
+    Bosihamier
+  </h1>
+  <p class="site-description">
+    一世长安
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              git操作学习笔记
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-02-21
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h1 id="git操作的学习笔记">git操作的学习笔记</h1>
+<p>链接<br>
+<a href="https://zhuanlan.zhihu.com/p/276376558" title="git">git操作</a></p>
+<h2 id="git-工作流程">git 工作流程</h2>
+<ul>
+<li>工作区(Workspace)</li>
+<li>暂存区(Index/Stage)</li>
+<li>本地仓库(Respository)</li>
+<li>远程仓库(Remote)</li>
+</ul>
+<hr>
+<p><strong>远程仓库&lt;-(push)- -(pull/clone)-&gt;本地仓库&lt;-(commit)-暂存区&lt;-(add)-工作区</strong></p>
+<hr>
+<h3 id="基本工作流程">基本工作流程</h3>
+<ol>
+<li>在工作区中添加修改文件</li>
+<li>工作区中的文件放入暂存区</li>
+<li>暂存区的文件提交本地git本地仓库</li>
+<li>本地仓库推送到远程仓库</li>
+</ol>
+<h2 id="操作">操作</h2>
+<h3 id="初始化">初始化</h3>
+<p>两种方式初始化</p>
+<pre><code># 方式一:本地生成git
+git init
+# 方式二:远端克隆仓库
+git clone https://github.com/xx/xx.git
+</code></pre>
+<p>基本配置</p>
+<pre><code># 配置用户名
+git config --global user.name &quot;name&quot;
+# 配置邮箱
+git config --global user.email &quot;name@mail.com&quot;
+</code></pre>
+<p>删除远程仓库</p>
+<pre><code>git remote rm origin
+</code></pre>
+<p>添加远程仓库</p>
+<pre><code>git remote add origin https://github.com/xx/xx.git
+</code></pre>
+<h3 id="推送到远程仓库">推送到远程仓库</h3>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#git%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">git操作的学习笔记</a>
+<ul>
+<li><a href="#git-%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B">git 工作流程</a>
+<ul>
+<li><a href="#%E5%9F%BA%E6%9C%AC%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B">基本工作流程</a></li>
+</ul>
+</li>
+<li><a href="#%E6%93%8D%E4%BD%9C">操作</a>
+<ul>
+<li><a href="#%E5%88%9D%E5%A7%8B%E5%8C%96">初始化</a></li>
+<li><a href="#%E6%8E%A8%E9%80%81%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93">推送到远程仓库</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  岁月静好
+  <a class="rss" href="https://ewuzeyu.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
