@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ewuzeyu.github.io/</id>
     <title>迷雾蓝屏</title>
-    <updated>2022-04-10T03:32:22.297Z</updated>
+    <updated>2022-04-16T03:58:03.507Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ewuzeyu.github.io/"/>
     <link rel="self" href="https://ewuzeyu.github.io/atom.xml"/>
@@ -10,6 +10,65 @@
     <logo>https://ewuzeyu.github.io/images/avatar.png</logo>
     <icon>https://ewuzeyu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 迷雾蓝屏</rights>
+    <entry>
+        <title type="html"><![CDATA[财务报表的小知识]]></title>
+        <id>https://ewuzeyu.github.io/post/Financial_Statements/</id>
+        <link href="https://ewuzeyu.github.io/post/Financial_Statements/">
+        </link>
+        <updated>2022-04-14T12:35:58.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="这是财务报表的小知识">这是财务报表的小知识</h1>
+<h2 id="基本">基本</h2>
+<p>BEA(Breakeven Analysis)收支平衡分析<br><br>
+BEA = Fixed Cost / ( Price/Unit - Cost/Unit ) <br><br>
+= 固定成本/(单位售价-单位成本) = 固定成本 - 单位利润</p>
+<p>Market penetration Analysis 市场渗透分析<br><br>
+Market Penetration = BEA * Price / Market Size</p>
+<p>ROI 投资回报率</p>
+<h2 id="工具-tools">工具 Tools</h2>
+<p>The Balance sheet 资产负债表<br><br>
+Income statement 损益表</p>
+<ul>
+<li>Net working capital 净运营资本</li>
+</ul>
+<p>statement of cashflow 现金流量表</p>
+<ul>
+<li>short-term solvency ratios 短期偿付能力比</li>
+<li>activity ratios 活动比率</li>
+<li>financial leverage ratios 财务杠杆比率</li>
+<li>profitability ratio 盈利率</li>
+</ul>
+<h3 id="balance-sheet">Balance sheet</h3>
+<p>assets = liabilities + equity<br><br>
+资产 = 负债 + 净资产</p>
+<h3 id="income-statement">Income statement</h3>
+<p>Income = revenues - expenses<br><br>
+利润 = 销售额 - 花费</p>
+<h3 id="其他">其他</h3>
+<p>cash flow 包括经营,投资,融资等</p>
+<p>预测表</p>
+<h2 id="财务报表分析">财务报表分析</h2>
+<p>主要有四个角度: 偿付能力,活动比率,财务杠杆,盈利力</p>
+<h3 id="sovency-ratios-偿付能力比率">sovency ratios 偿付能力比率</h3>
+<p>流动比率 current ratio = Total current assets / Total current liabilities<br><br>
+大约在 1-2 之间为好的,具体要在行业内对比</p>
+<hr>
+<p>速动比率 quick ratio = ( Total current assets - Inventory ) / Total current liabilities<br><br>
+大约 1.1 是好的</p>
+<h3 id="activities-ratio-活动比率">Activities ratio 活动比率</h3>
+<p>资金周转率 asset turnover = Total revenue (sales) / Total assets<br><br>
+越高越好,需要在行业内对比</p>
+<hr>
+<p>receivable turnover = Total Revenue (sales) / Receibables<br><br>
+相应的有其天数为 Period / receivable turnover<br><br>
+天数越短越好</p>
+<hr>
+<p>存货周转率 Inventory turnover = Cost of goods sold / Inventory<br><br>
+相应的有其天数为 Period / Inventory turnover<br><br>
+一般库存天数在 4-6 天为宜</p>
+<h3 id="financial-leverage-ratio-财务杠杆比率">Financial leverage ratio 财务杠杆比率</h3>
+<p>负债比率 Debt ratio = Total debt / Total assets</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[正则表达式]]></title>
         <id>https://ewuzeyu.github.io/post/regular-expression/</id>
