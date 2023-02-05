@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ewuzeyu.github.io/</id>
     <title>蓝屏-吴泽雨</title>
-    <updated>2023-02-05T14:45:50.978Z</updated>
+    <updated>2023-02-05T14:48:33.667Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ewuzeyu.github.io/"/>
     <link rel="self" href="https://ewuzeyu.github.io/atom.xml"/>
@@ -10,36 +10,6 @@
     <logo>https://ewuzeyu.github.io/images/avatar.png</logo>
     <icon>https://ewuzeyu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, 蓝屏-吴泽雨</rights>
-    <entry>
-        <title type="html"><![CDATA[磁珠在核酸提取中]]></title>
-        <id>https://ewuzeyu.github.io/post/ci-zhu-zai-he-suan-ti-qu-zhong/</id>
-        <link href="https://ewuzeyu.github.io/post/ci-zhu-zai-he-suan-ti-qu-zhong/">
-        </link>
-        <updated>2023-02-05T14:43:16.000Z</updated>
-        <content type="html"><![CDATA[<p><em><strong>注意：本文仅为网络信息汇总，正确性有待商榷</strong></em></p>
-<h1 id="磁珠">磁珠</h1>
-<p>磁珠内层结构略过；其外包裹四氧化三铁，为磁性来源；再外包裹高分子材料，其上偶联不同官能团。一般依据官能团不同，分为硅羟基磁珠，羧基磁珠，氨基/咪唑基磁珠和其他带正电磁珠。他们分别存在不同特性。</p>
-<h1 id="基本原理基于硅羟基磁珠羧基磁珠等带负电的">基本原理（基于硅羟基磁珠，羧基磁珠等带负电的）</h1>
-<p>首先是磁珠和DNA吸附，其中相互作用目前尚无定论，主流学说为盐桥理论。（硅羟基、羧基）磁珠表面带负电；DNA的磷酸基团带负电，若在PEG则会夺取DNA分子外水化层而加强这一过程。在溶液中高浓度的正离子可以与两边的负电性基团结合，成为‘盐桥’。另外疏水作用，氢键等也都是促进吸附的因素。</p>
-<p>洗涤一般使用75-85%的乙醇溶液。这时盐被洗去，理论上会破坏盐桥，不过DNA并不容易溶解在此浓度乙醇中，他们沉积在磁珠周围，因此还是不易脱落。这里乙醇浓度很重要，浓度高时，体系中的水更少，因此清洗盐离子的能力减弱，但DNA回收率高；浓度低时可以更好洗去盐离子，但DNA损失变大。</p>
-<p>在洗脱前要先晾干残留的乙醇。注意晾干时磁珠表面无光泽即可，过度干燥，体系失水过多，会导致磁珠DNA进一步聚集，最终DNA很难回溶到水中，影响回收率。</p>
-<p>之后使用水或者TE缓冲液即可洗脱，因为此时体系中已经无法形成电桥的结构。</p>
-<hr>
-<p>对于带正电的磁珠，是通过调节pH实现核酸分子在磁珠表面的可逆结合。</p>
-<h1 id="其他要点">其他要点</h1>
-<h2 id="硅羟基磁珠和羧基磁珠的不同">硅羟基磁珠和羧基磁珠的不同</h2>
-<p>硅羟基磁珠适合高浓度盐体系，如NaI、NaClO4、GuHCl、GuSCN等盐。<br>
-其一般含有二氧化硅，因此用这种磁珠时体系的pH不能太高，一般不高于9。但二氧化硅磁性微球抗机械强度强，化学稳定性比较好。</p>
-<p>羧基磁珠适合PEG和NaCl的体系。而且他们会令核酸分子从伸展的构象逐渐蜷缩成小球状，其上的负电荷也大部分被屏蔽掉，促使核酸分子吸附到磁珠上。（这种构象变化似乎在普通条件下也会发生，而且核酸分子越大越有变化的倾向，这也是一般情况下磁珠会优先吸附较长核酸片段的原因）通过以上性质，则可以实现片段筛选。<br>
-另外，羧基磁珠具有超顺磁性、快速磁响应性、高羧基含量、单分散性和亚微米尺度粒径等特点，能够在特殊化学试剂（如EDC）的作用下将多肽、蛋白、寡聚核苷酸等生物配体共价偶联到微球表面。</p>
-<h2 id="磁珠尺寸">磁珠尺寸</h2>
-<p>尺寸越小悬浮性越好，但磁响应会减弱（磁铁吸得慢）。</p>
-<h2 id="ph的影响">pH的影响</h2>
-<p>除了上述硅羟基磁珠的特性外，pH会影响DNA和Si（硅）的带电性。pH3-9条件下，DNA一般带负电；pH5-7时，pH越高，Si表面的邻位硅烷醇基团就越多（不知具体原理），越利于DNA吸附。而pH超过7时，吸附DNA的能力则下降。</p>
-<h2 id="其他">其他</h2>
-<p>异丙醇挥发性低于乙醇，而且破坏水化层的能力比乙醇强。DNA在异丙醇中更难溶解。</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[磁珠在核酸提取中]]></title>
         <id>https://ewuzeyu.github.io/post/magnetic_beads/</id>
