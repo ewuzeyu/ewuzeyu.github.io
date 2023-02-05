@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ewuzeyu.github.io/</id>
-    <title>迷雾蓝屏</title>
-    <updated>2023-02-05T14:44:30.376Z</updated>
+    <title>蓝屏-吴泽雨</title>
+    <updated>2023-02-05T14:45:50.978Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ewuzeyu.github.io/"/>
     <link rel="self" href="https://ewuzeyu.github.io/atom.xml"/>
     <subtitle>一世长安</subtitle>
     <logo>https://ewuzeyu.github.io/images/avatar.png</logo>
     <icon>https://ewuzeyu.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2023, 迷雾蓝屏</rights>
+    <rights>All rights reserved 2023, 蓝屏-吴泽雨</rights>
     <entry>
         <title type="html"><![CDATA[磁珠在核酸提取中]]></title>
         <id>https://ewuzeyu.github.io/post/ci-zhu-zai-he-suan-ti-qu-zhong/</id>
