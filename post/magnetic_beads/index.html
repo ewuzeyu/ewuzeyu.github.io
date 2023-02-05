@@ -10,14 +10,14 @@
 <meta name="keywords" content="">
 <meta name="description" content="欢迎访问[迷雾蓝屏]的个人博客">
 <meta name="author" content="kveln">
-<title>git操作学习笔记  一 | 迷雾蓝屏</title>
+<title>磁珠在核酸提取中 | 迷雾蓝屏</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
 <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <link
   href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
   rel='stylesheet' type='text/css'>
-<link rel="alternate" type="application/rss+xml" title="git操作学习笔记  一 | 迷雾蓝屏 » Feed"
+<link rel="alternate" type="application/rss+xml" title="磁珠在核酸提取中 | 迷雾蓝屏 » Feed"
   href="https://ewuzeyu.github.io//atom.xml">
 <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
@@ -30,8 +30,8 @@
 
 <script>hljs.initHighlightingOnLoad();</script>
 
-  <meta property="og:description" content="git操作学习笔记  一" />
-  <meta property="og:url" content="https://ewuzeyu.github.io/post/git_learning/" />
+  <meta property="og:description" content="磁珠在核酸提取中" />
+  <meta property="og:url" content="https://ewuzeyu.github.io/post/magnetic_beads/" />
   <meta property="og:locale" content="zh-CN" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="迷雾蓝屏" />
@@ -163,15 +163,15 @@
             <div class="post-heading">
               <span class="tags">
                 
+                <a href="https://ewuzeyu.github.io/tag/tSGKu9uYV/" class="tag">生物</a>
+                
                 <a href="https://ewuzeyu.github.io/tag/fISJNCgdTo/" class="tag">study</a>
                 
-                <a href="https://ewuzeyu.github.io/tag/S52VxFmdv/" class="tag">git</a>
-                
               </span>
-              <h1>git操作学习笔记  一</h1>
+              <h1>磁珠在核酸提取中</h1>
               <span class="meta">
                 Posted on
-                2022-02-19，2 min read
+                2023-02-03，4 min read
               </span>
             </div>
           
@@ -186,80 +186,38 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto post-content-container">
           
-          <img class="post-feature-header-image" src="https://tva2.sinaimg.cn/mw690/006SGjrugy1h0khjs2flsj30xc0oxwrd.jpg" alt="封面图">
-          </img>
-          
-          <h1 id="git操作的学习笔记-一">git操作的学习笔记  一</h1>
-<p>链接<br>
-<a href="https://zhuanlan.zhihu.com/p/276376558" title="git">git操作</a></p>
-<h2 id="git-工作流程">git 工作流程</h2>
-<ul>
-<li>工作区(Workspace)</li>
-<li>暂存区(Index/Stage)</li>
-<li>本地仓库(Respository)</li>
-<li>远程仓库(Remote)</li>
-</ul>
+          <p><em><strong>注意：本文仅为网络信息汇总，正确性有待商榷</strong></em></p>
+<h1 id="磁珠">磁珠</h1>
+<p>磁珠内层结构略过；其外包裹四氧化三铁，为磁性来源；再外包裹高分子材料，其上偶联不同官能团。一般依据官能团不同，分为硅羟基磁珠，羧基磁珠，氨基/咪唑基磁珠和其他带正电磁珠。他们分别存在不同特性。</p>
+<h1 id="基本原理基于硅羟基磁珠羧基磁珠等带负电的">基本原理（基于硅羟基磁珠，羧基磁珠等带负电的）</h1>
+<p>首先是磁珠和DNA吸附，其中相互作用目前尚无定论，主流学说为盐桥理论。（硅羟基、羧基）磁珠表面带负电；DNA的磷酸基团带负电，若在PEG则会夺取DNA分子外水化层而加强这一过程。在溶液中高浓度的正离子可以与两边的负电性基团结合，成为‘盐桥’。另外疏水作用，氢键等也都是促进吸附的因素。</p>
+<p>洗涤一般使用75-85%的乙醇溶液。这时盐被洗去，理论上会破坏盐桥，不过DNA并不容易溶解在此浓度乙醇中，他们沉积在磁珠周围，因此还是不易脱落。这里乙醇浓度很重要，浓度高时，体系中的水更少，因此清洗盐离子的能力减弱，但DNA回收率高；浓度低时可以更好洗去盐离子，但DNA损失变大。</p>
+<p>在洗脱前要先晾干残留的乙醇。注意晾干时磁珠表面无光泽即可，过度干燥，体系失水过多，会导致磁珠DNA进一步聚集，最终DNA很难回溶到水中，影响回收率。</p>
+<p>之后使用水或者TE缓冲液即可洗脱，因为此时体系中已经无法形成电桥的结构。</p>
 <hr>
-<p><strong>远程仓库&lt;-(push)- -(pull/clone)-&gt;本地仓库&lt;-(commit)-暂存区&lt;-(add)-工作区</strong></p>
-<hr>
-<h3 id="基本工作流程">基本工作流程</h3>
-<ol>
-<li>在工作区中添加修改文件</li>
-<li>工作区中的文件放入暂存区</li>
-<li>暂存区的文件提交本地git本地仓库</li>
-<li>本地仓库推送到远程仓库</li>
-</ol>
-<h2 id="操作">操作</h2>
-<h3 id="初始化">初始化</h3>
-<p>两种方式初始化</p>
-<pre><code># 方式一:本地生成git
-git init
-# 方式二:远端克隆仓库
-git clone https://github.com/xx/xx.git
-</code></pre>
-<p>基本配置</p>
-<pre><code># 配置用户名
-git config --global user.name &quot;name&quot;
-# 配置邮箱
-git config --global user.email &quot;name@mail.com&quot;
-</code></pre>
-<p>删除远程仓库</p>
-<pre><code>git remote rm origin
-</code></pre>
-<p>添加远程仓库</p>
-<pre><code>git remote add origin https://github.com/xx/xx.git
-</code></pre>
-<h3 id="推送到远程仓库">推送到远程仓库</h3>
-<p>将已修改文件添加到暂存区</p>
-<pre><code>git add dir/filename # 添加指定文件
-git add . # 添加所有已修改文件
-</code></pre>
-<p>暂存区改动提交到本地仓库<br><br>
-<code>git commit</code>命令后在本地仓库生成40位哈希值,用于版本回退</p>
-<pre><code>git commit -m &quot;message&quot; # message即本次提交的说明
-</code></pre>
-<p>上传至远程仓库</p>
-<pre><code>git push -u origin master # master可以换为其他分支
-</code></pre>
-<h3 id="从远程仓库拉取">从远程仓库拉取</h3>
-<p>更新本地</p>
-<pre><code>git pull origin master # master可以换为其他分支</code></pre>
+<p>对于带正电的磁珠，是通过调节pH实现核酸分子在磁珠表面的可逆结合。</p>
+<h1 id="其他要点">其他要点</h1>
+<h2 id="硅羟基磁珠和羧基磁珠的不同">硅羟基磁珠和羧基磁珠的不同</h2>
+<p>硅羟基磁珠适合高浓度盐体系，如NaI、NaClO4、GuHCl、GuSCN等盐。<br>
+其一般含有二氧化硅，因此用这种磁珠时体系的pH不能太高，一般不高于9。但二氧化硅磁性微球抗机械强度强，化学稳定性比较好。</p>
+<p>羧基磁珠适合PEG和NaCl的体系。而且他们会令核酸分子从伸展的构象逐渐蜷缩成小球状，其上的负电荷也大部分被屏蔽掉，促使核酸分子吸附到磁珠上。（这种构象变化似乎在普通条件下也会发生，而且核酸分子越大越有变化的倾向，这也是一般情况下磁珠会优先吸附较长核酸片段的原因）通过以上性质，则可以实现片段筛选。<br>
+另外，羧基磁珠具有超顺磁性、快速磁响应性、高羧基含量、单分散性和亚微米尺度粒径等特点，能够在特殊化学试剂（如EDC）的作用下将多肽、蛋白、寡聚核苷酸等生物配体共价偶联到微球表面。</p>
+<h2 id="磁珠尺寸">磁珠尺寸</h2>
+<p>尺寸越小悬浮性越好，但磁响应会减弱（磁铁吸得慢）。</p>
+<h2 id="ph的影响">pH的影响</h2>
+<p>除了上述硅羟基磁珠的特性外，pH会影响DNA和Si（硅）的带电性。pH3-9条件下，DNA一般带负电；pH5-7时，pH越高，Si表面的邻位硅烷醇基团就越多（不知具体原理），越利于DNA吸附。而pH超过7时，吸附DNA的能力则下降。</p>
+<h2 id="其他">其他</h2>
+<p>异丙醇挥发性低于乙醇，而且破坏水化层的能力比乙醇强。DNA在异丙醇中更难溶解。</p>
 
           <div class="toc-container"><ul class="markdownIt-TOC">
-<li><a href="#git%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E4%B8%80">git操作的学习笔记  一</a>
+<li><a href="#%E7%A3%81%E7%8F%A0">磁珠</a></li>
+<li><a href="#%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E5%9F%BA%E4%BA%8E%E7%A1%85%E7%BE%9F%E5%9F%BA%E7%A3%81%E7%8F%A0%E7%BE%A7%E5%9F%BA%E7%A3%81%E7%8F%A0%E7%AD%89%E5%B8%A6%E8%B4%9F%E7%94%B5%E7%9A%84">基本原理（基于硅羟基磁珠，羧基磁珠等带负电的）</a></li>
+<li><a href="#%E5%85%B6%E4%BB%96%E8%A6%81%E7%82%B9">其他要点</a>
 <ul>
-<li><a href="#git-%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B">git 工作流程</a>
-<ul>
-<li><a href="#%E5%9F%BA%E6%9C%AC%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B">基本工作流程</a></li>
-</ul>
-</li>
-<li><a href="#%E6%93%8D%E4%BD%9C">操作</a>
-<ul>
-<li><a href="#%E5%88%9D%E5%A7%8B%E5%8C%96">初始化</a></li>
-<li><a href="#%E6%8E%A8%E9%80%81%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93">推送到远程仓库</a></li>
-<li><a href="#%E4%BB%8E%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%8B%89%E5%8F%96">从远程仓库拉取</a></li>
-</ul>
-</li>
+<li><a href="#%E7%A1%85%E7%BE%9F%E5%9F%BA%E7%A3%81%E7%8F%A0%E5%92%8C%E7%BE%A7%E5%9F%BA%E7%A3%81%E7%8F%A0%E7%9A%84%E4%B8%8D%E5%90%8C">硅羟基磁珠和羧基磁珠的不同</a></li>
+<li><a href="#%E7%A3%81%E7%8F%A0%E5%B0%BA%E5%AF%B8">磁珠尺寸</a></li>
+<li><a href="#ph%E7%9A%84%E5%BD%B1%E5%93%8D">pH的影响</a></li>
+<li><a href="#%E5%85%B6%E4%BB%96">其他</a></li>
 </ul>
 </li>
 </ul>
@@ -267,9 +225,9 @@ git add . # 添加所有已修改文件
           
           <hr />
           <p class="next-post">下一篇：
-            <a href="https://ewuzeyu.github.io/post/review_TheMoonAndSixpence/">
+            <a href="https://ewuzeyu.github.io/post/local_BLAST_index1/">
               <span class="post-title">
-                【柚斐书评】《月亮与六便士》&rarr;
+                本地Blast 踩坑记录&rarr;
               </span>
             </a>
           </p>
